@@ -1,0 +1,13 @@
+inp=input("What is the capital of Egypt:") #O(1)
+inp.lower                                  #O(1)
+x=False                                    #O(1)
+if inp != 'cairo':                         #O(1)
+    for i in range(5):                     #O(4*1*1*1)
+        if inp == 'cairo': #O(1)
+            x=True #O(1)
+            break #O(1)
+        inp=input(f"Wrong answer! try again.({i}/4)")  #O(1)
+if x==True or inp=='cairo':                #O(1)
+    print("Excellent! you'r right.")       #O(1)
+else:
+    print("YOU FAIL!")                     #O(1)
