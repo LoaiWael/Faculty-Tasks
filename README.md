@@ -9,5 +9,5 @@
 #### 2nd year:
 <ol>
   <li>Data structure & Algorithms</li>
-  <li>Web development</li>
+  <li>Web programming</li>
 </ol>
