@@ -12,7 +12,10 @@ class Stack:
     def __len__(self):
         return len(self.stack)
     
-    def add(self,num):
+    def peek(self):
+        return self.stack[self.top]
+    
+    def push(self,num):
         if self.top == len(self.stack)-1:
             return print("The stack is full!")
         else:
@@ -31,12 +34,12 @@ class Stack:
 
 # testing
 # x=Stack(5)
-# x.add(5)
-# x.add("loai")
-# x.add(10)
-# x.add('Wael')
-# x.add('Hassan')
-# x.add(1)
+# x.push(5)
+# x.push("loai")
+# x.push(10)
+# x.push('Wael')
+# x.push('Hassan')
+# x.push(1)
 # x.pop()
 # print(x)
 # print(x.pop())
@@ -47,3 +50,4 @@ class Stack:
 # print(x)
 # x.pop()
 # print(len(x))
+# print(x.peek())
