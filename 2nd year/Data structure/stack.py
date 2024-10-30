@@ -3,32 +3,35 @@ class Stack:
     def __init__(self,max):
         while type(max)!=int:
             print("Invalid size or input type. Please enter the size of the stack correctly.")
-        self.stack=[0]*max
-        self.top=-1
+        self.__stack=[0]*max
+        self.__top=-1
 
     def __str__(self):
-        return str(self.stack)
+        return str(self.__stack)
     
     def __len__(self):
-        return len(self.stack)
+        return len(self.__stack)
+    
+    def __iter__(self):
+        return iter(self.__stack)
     
     def peek(self):
-        return self.stack[self.top]
+        return self.__stack[self.__top]
     
     def push(self,num):
-        if self.top == len(self.stack)-1:
+        if self.__top == len(self.__stack)-1:
             return print("The stack is full!")
         else:
-            self.top+=1
-            self.stack[self.top]=num
+            self.__top+=1
+            self.__stack[self.__top]=num
 
     def pop(self):
-        if self.top == -1:
+        if self.__top == -1:
             return print("The stack is empty!")
         else:
-            temp=self.stack[self.top]
-            self.stack[self.top]=0
-            self.top-=1
+            temp=self.__stack[self.__top]
+            self.__stack[self.__top]=0
+            self.__top-=1
             return temp
     
 
