@@ -29,6 +29,3 @@ def insertionSort(li):
             j-=1
         li[j+1]=temp
     return li
-
-li=[4,7,8,9,6,5,2,3,1]
-print(insertionSort(li))
