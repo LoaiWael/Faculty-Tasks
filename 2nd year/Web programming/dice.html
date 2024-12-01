@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling dice</title>
+</head>
+
+<body>
+    <main>
+        <h1>Rolling a dice</h1>
+        <section>
+            <img src="game-dice-emoji-icon-6912.png" alt="dice">
+            <span id="show">1</span>
+        </section>
+        <small>Press to roll</small>
+        <button onclick="roll()">Roll</button>
+    </main>
+    <script>
+        function roll() {
+            element = document.getElementById("show")
+            y = Math.floor(Math.random() * 6)
+            element.innerHTML = y + 1
+        }
+    </script>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(240, 232, 229);
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+            height: 40vh;
+            border-radius: 17px;
+            box-shadow: 0 2px 7px 1px rgba(23, 24, 26, 0.2);
+            padding: 10px;
+            color: #252525;
+            background-color: white;
+
+            section {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            small {
+                margin-top: 20px;
+            }
+
+            button {
+                width: 80%;
+                padding: 7px;
+                border: none;
+                border-radius: 20px;
+                font-weight: bold;
+                background-color: rgb(240, 232, 229);
+                transition: 200ms;
+            }
+
+            button:hover {
+                background-color: rgb(202, 197, 195);
+            }
+        }
+
+        #show {
+            font-weight: bold;
+        }
+
+        img[alt="dice"] {
+            width: 80px;
+        }
+    </style>
+</body>
+
+</html>
