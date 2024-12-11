@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light bulb</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(245, 243, 197);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            box-shadow: 0 0 7px rgba(0, 0, 0, 0.295);
+            border-radius: 20px;
+            width: 80%;
+            height: 80vh;
+
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+                padding: 20px;
+
+                img {
+                    width: 250px;
+                }
+
+                button {
+                    width: 100%;
+                    padding: 7px;
+                    border: none;
+                    border-radius: 20px;
+                    font-weight: bold;
+                    background-color: rgb(245, 243, 197);
+                    transition: 200ms;
+                }
+
+                button:hover {
+                    background-color: rgba(245, 243, 197, 0.555);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img id="img" src="./images/lightbulbOn.webp" alt="On">
+            <button onclick="toggleLight()">Toggle light</button>
+        </section>
+    </main>
+    <script>
+        var isOn = true
+        function toggleLight() {
+            if (isOn) {
+                document.getElementById("img").src = "./images/lightbulbOff.webp"
+                isOn = false
+            }
+            else {
+                document.getElementById("img").src = "./images/lightbulbOn.webp"
+                isOn = true
+            }
+        }
+    </script>
+</body>
+
+</html>
