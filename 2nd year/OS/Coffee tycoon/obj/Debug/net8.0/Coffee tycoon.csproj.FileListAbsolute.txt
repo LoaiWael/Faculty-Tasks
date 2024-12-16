@@ -1,0 +1,15 @@
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\Coffee tycoon.exe
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\Coffee tycoon.deps.json
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\Coffee tycoon.runtimeconfig.json
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\Coffee tycoon.dll
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\Coffee tycoon.pdb
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.AssemblyInfoInputs.cache
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.AssemblyInfo.cs
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.csproj.CoreCompileInputs.cache
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.sourcelink.json
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.dll
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\refint\Coffee tycoon.dll
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.pdb
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\Coffee tycoon.genruntimeconfig.cache
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\ref\Coffee tycoon.dll

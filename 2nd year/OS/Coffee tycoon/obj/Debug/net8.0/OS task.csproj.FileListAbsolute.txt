@@ -1,0 +1,15 @@
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\OS task.exe
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\OS task.deps.json
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\OS task.runtimeconfig.json
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\OS task.dll
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\bin\Debug\net8.0\OS task.pdb
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.AssemblyInfoInputs.cache
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.AssemblyInfo.cs
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.csproj.CoreCompileInputs.cache
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.sourcelink.json
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.dll
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\refint\OS task.dll
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.pdb
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\OS task.genruntimeconfig.cache
+C:\Loai\GitHub Clones\Faculty-Tasks\2nd year\OS\OS task\obj\Debug\net8.0\ref\OS task.dll
