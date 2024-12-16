@@ -27,6 +27,8 @@ namespace OS_task
                 Console.WriteLine($"Wallet: {wallet.ToString("c")}\t\tOpen Stores: {numOfStores}\t\tCoffee beans: {coffeeBeans}Kg\n\n");
                 char ctrl=char.Parse(Console.ReadLine());
                 int newStores=0;
+                Thread main=Thread.CurrentThread;
+ 
                 switch (char.ToLower(ctrl))
                 {
                     case 's':
@@ -52,24 +54,23 @@ namespace OS_task
                             Console.WriteLine("\nThere is no store! Press (S) to buy one.\n");
                             break;
                         }
+
                         foreach(Thread thread in listThreads)
                         {
                             if (!thread.IsAlive)
                             {
                                 thread.Start();
                             }
+                            else
+                            {
+                                thread.Resume();
+                            }
                         }
-
-                        Thread.Sleep(27000);
-                        Console.WriteLine($"\nDay {days} completed!");
+                        listThreads.Last().Join();
+                        Console.WriteLine($"\nDay {days} completed!\n");
                         days++;
-                        //foreach (Thread thread in listThreads)
-                        //{                             
-                        //     thread.Join();
-                        //}
                         break;
                 }
-
             }
 
         }
@@ -151,7 +152,7 @@ namespace OS_task
                         coffeeBeans = coffeeBeans - (gramsSold/1000);
                         wallet += (gramsSold * GramCoffee);
                         Console.WriteLine($"+{(gramsSold * GramCoffee).ToString("c")} (Wallet: {wallet.ToString("c")})");
-                        Console.WriteLine($"-{(gramsSold / 1000)}g (Coffee: {coffeeBeans}Kg)\n");
+                        Console.WriteLine($"-{(gramsSold / 1000)}Kg (Coffee: {coffeeBeans}Kg)\n");
                 }
             }
             Console.WriteLine($"{Thread.CurrentThread.Name}: Day ended.");

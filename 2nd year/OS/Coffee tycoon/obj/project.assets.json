@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Loai\\GitHub Clones\\Faculty-Tasks\\2nd year\\OS\\OS task\\Coffee tycoon.csproj",
+      "projectUniqueName": "C:\\Loai\\GitHub Clones\\Faculty-Tasks\\2nd year\\OS\\Coffee tycoon\\Coffee tycoon.csproj",
       "projectName": "Coffee tycoon",
-      "projectPath": "C:\\Loai\\GitHub Clones\\Faculty-Tasks\\2nd year\\OS\\OS task\\Coffee tycoon.csproj",
+      "projectPath": "C:\\Loai\\GitHub Clones\\Faculty-Tasks\\2nd year\\OS\\Coffee tycoon\\Coffee tycoon.csproj",
       "packagesPath": "C:\\Users\\ALSABA\\.nuget\\packages\\",
-      "outputPath": "C:\\Loai\\GitHub Clones\\Faculty-Tasks\\2nd year\\OS\\OS task\\obj\\",
+      "outputPath": "C:\\Loai\\GitHub Clones\\Faculty-Tasks\\2nd year\\OS\\Coffee tycoon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ALSABA\\AppData\\Roaming\\NuGet\\NuGet.Config",
