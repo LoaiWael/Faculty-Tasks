@@ -9,7 +9,7 @@ namespace OS_task
         static double wallet = 500_000;
         static int numOfStores = 0;
         static double coffeeBeans = 0;
-        static int days = 0;
+        static int days = 1;
 
         static object locker=new object();
 
@@ -27,7 +27,6 @@ namespace OS_task
                 Console.WriteLine($"Wallet: {wallet.ToString("c")}\t\tOpen Stores: {numOfStores}\t\tCoffee beans: {coffeeBeans}Kg\n\n");
                 char ctrl=char.Parse(Console.ReadLine());
                 int newStores=0;
-                Thread main=Thread.CurrentThread;
  
                 switch (char.ToLower(ctrl))
                 {
@@ -61,12 +60,12 @@ namespace OS_task
                             {
                                 thread.Start();
                             }
-                            else
-                            {
-                                thread.Resume();
-                            }
+                            //else
+                            //{
+                            //    thread.Resume();
+                            //}
                         }
-                        listThreads.Last().Join();
+                        listThreads.ForEach(thread => thread.Join());
                         Console.WriteLine($"\nDay {days} completed!\n");
                         days++;
                         break;
@@ -155,7 +154,7 @@ namespace OS_task
                         Console.WriteLine($"-{(gramsSold / 1000)}Kg (Coffee: {coffeeBeans}Kg)\n");
                 }
             }
-            Console.WriteLine($"{Thread.CurrentThread.Name}: Day ended.");
+            Console.WriteLine($"{Thread.CurrentThread.Name}: Closed.");
         }
     }
 }
