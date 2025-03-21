@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Loai Wael Hassan">
+    <title>Canvas task</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: clip;
+            background-color: #252525;
+        }
+
+        canvas {
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="my-canvas"></canvas>
+    <script>
+        const canvas = document.getElementById('my-canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.strokeStyle = 'white';
+        ctx.arc(150, 70, 50, 0, Math.PI * 2);
+        ctx.moveTo(131, 60);
+        ctx.arc(130, 60, 1, 0, Math.PI * 2);
+        ctx.moveTo(135, 60);
+        ctx.arc(130, 60, 5, 0, Math.PI * 2);
+        ctx.moveTo(171, 60);
+        ctx.arc(170, 60, 1, 0, Math.PI * 2);
+        ctx.moveTo(175, 60);
+        ctx.arc(170, 60, 5, 0, Math.PI * 2);
+        ctx.moveTo(155, 70);
+        ctx.arc(150, 70, 5, 0, Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.fillStyle = 'white';
+        ctx.font = '20px Arial ';
+        ctx.fillText('Ramadan Kareem', 70, 150);
+    </script>
+</body>
+
+</html>
