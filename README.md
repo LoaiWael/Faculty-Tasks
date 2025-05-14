@@ -10,4 +10,7 @@
 <ol>
   <li>Data structure & Algorithms</li>
   <li>Web programming</li>
+  <li>Database</li>
+  <li>OS</li>
+  <li>Computer graphics</li>
 </ol>
